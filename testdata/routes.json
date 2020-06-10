@@ -1,0 +1,119 @@
+{
+  "next": null,
+  "data": [
+    {
+      "id": "135149b5-9d0f-419e-b915-86f28c69a82f",
+      "path_handling": "v0",
+      "paths": [
+        "/api/v1/data-collector/collector"
+      ],
+      "destinations": null,
+      "headers": null,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "methods": [
+        "POST"
+      ],
+      "snis": null,
+      "service": {
+        "id": "d25d909e-c79c-41d3-a6b2-74ad1dfa23a0"
+      },
+      "name": null,
+      "strip_path": false,
+      "preserve_host": false,
+      "regex_priority": 0,
+      "updated_at": 1590503127,
+      "sources": null,
+      "hosts": [
+        "rcplatform.lf.internal",
+        "localhost",
+        "127.0.0.1"
+      ],
+      "https_redirect_status_code": 426,
+      "tags": [
+        "rc-services"
+      ],
+      "created_at": 1590503127
+    },
+    {
+      "id": "6f8dbc5f-275d-4e6d-bb17-a4c9e934e0bb",
+      "path_handling": "v0",
+      "paths": [
+        "/kong-admin"
+      ],
+      "destinations": null,
+      "headers": null,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "methods": [
+        "POST",
+        "GET",
+        "HEAD",
+        "PATCH",
+        "DELETE",
+        "OPTIONS"
+      ],
+      "snis": null,
+      "service": {
+        "id": "c53dcaca-2f6f-4fb0-8968-54923d981278"
+      },
+      "name": null,
+      "strip_path": true,
+      "preserve_host": false,
+      "regex_priority": 0,
+      "updated_at": 1590504133,
+      "sources": null,
+      "hosts": null,
+      "https_redirect_status_code": 426,
+      "tags": [
+        "rc-services"
+      ],
+      "created_at": 1590504133
+    },
+    {
+      "id": "8dabd1bc-742a-40a5-bd5c-18ea048e7c7f",
+      "path_handling": "v0",
+      "paths": [
+        "/api/v1/broadcast",
+        "/api/v1/store/broadcast"
+      ],
+      "destinations": null,
+      "headers": null,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "methods": [
+        "GET",
+        "POST",
+        "DELETE",
+        "PATCH",
+        "HEAD"
+      ],
+      "snis": null,
+      "service": {
+        "id": "c887e81e-b9b6-4687-a2e6-861ced9e9592"
+      },
+      "name": null,
+      "strip_path": false,
+      "preserve_host": false,
+      "regex_priority": 0,
+      "updated_at": 1590503127,
+      "sources": null,
+      "hosts": [
+        "rcplatform.lf.internal",
+        "localhost",
+        "127.0.0.1"
+      ],
+      "https_redirect_status_code": 426,
+      "tags": [
+        "rc-services"
+      ],
+      "created_at": 1590503127
+    }
+  ]
+}
